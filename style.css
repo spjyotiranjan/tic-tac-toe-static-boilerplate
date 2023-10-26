@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Designing Body  */
+
+body{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Designing Boxes */
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2.5px 2.5px rgb(195, 195, 195);
+    border-radius: 10px;
+}
+#main{
+    width: 320px;
+    height: 320px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+/* Designing Texts */
+
+#head>h1{
+    font-size: 80px;
+    color: #FAB201;
+    font-weight: 800;
+    -webkit-text-stroke: 5px white;
+}
+#footer>h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
